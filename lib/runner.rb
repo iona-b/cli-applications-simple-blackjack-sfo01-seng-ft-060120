@@ -7,4 +7,5 @@ def runner
   until card_total > 21 do
     hit? 
   end
+  end_game
 end
