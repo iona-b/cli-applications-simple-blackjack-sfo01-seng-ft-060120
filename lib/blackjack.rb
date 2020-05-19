@@ -7,8 +7,7 @@ def deal_card
 end
 
 def display_card_total(initial_round)
-  card_total = initial_round
-  print card_total
+  print sum
 end
 
 def prompt_user
@@ -27,7 +26,6 @@ def initial_round
   num_1 = deal_card
   num_2 = deal_card
   sum = num_1 + num_2
-  return sum
 end
 
 def hit?(num)
