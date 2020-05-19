@@ -29,8 +29,8 @@ def initial_round
   num_2 = deal_card
   card_total = num_1 + num_2
   #binding.pry
-  p display_card_total(card_total)
-  #return display_card_total(card_total)
+  puts display_card_total(card_total)
+  return display_card_total(card_total)
 end
 
 def hit?(display_card_total)
