@@ -39,6 +39,7 @@ def hit?(display_card_total)
   card_total = display_card_total
   
   if user_input == "h"
+    binding.pry
     deal_card
   elsif user_input == "s"
     return card_total
