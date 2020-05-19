@@ -38,6 +38,7 @@ def hit?(num)
   end
   if user_input == "s"
     return display_card_total
+  end
   unless user_input =="h" || user_input == "s"
     invalid_command
     prompt_user
