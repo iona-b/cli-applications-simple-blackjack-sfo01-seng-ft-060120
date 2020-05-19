@@ -36,8 +36,8 @@ def hit?(num)
   user_input = get_user_input
   if user_input == "h"
     deal_card
-  else if user_input == "s"
-    return display_card_total
+  #else if user_input == "s"
+    #return display_card_total
   else
     invalid_command
     prompt_user
