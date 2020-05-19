@@ -6,8 +6,8 @@ def deal_card
   rand(1..11)
 end
 
-def display_card_total(initial_round)
-  print sum
+def display_card_total(num)
+  print num
 end
 
 def prompt_user
