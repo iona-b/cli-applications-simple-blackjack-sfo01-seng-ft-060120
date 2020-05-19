@@ -8,7 +8,7 @@ end
 
 def display_card_total(initial_round)
   card_total = initial_round
-  puts card_total
+  p card_total
 end
 
 def prompt_user
