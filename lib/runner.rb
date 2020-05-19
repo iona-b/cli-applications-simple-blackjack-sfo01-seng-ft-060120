@@ -5,6 +5,6 @@ def runner
   initial_round
   prompt_user
   until card_total > 21 do
-    
+    hit? 
   end
 end
