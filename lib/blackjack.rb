@@ -39,6 +39,7 @@ def hit?(num)
   unless user_input =="h" || user_input == "s"
     invalid_command
     prompt_user
+  end
 end
 
 def invalid_command
